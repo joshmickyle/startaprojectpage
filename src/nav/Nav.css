@@ -1,0 +1,21 @@
+.nav-wrapper {
+  background-color: black !important;
+}
+/* #logo-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  width: auto;
+} */
+#logo-image {
+  height: 125px;
+}
+.navbar-material .nav-wrapper .button-collapse i {
+  color: black;
+}
+@media (max-width: 600px) {
+  #logo-image {
+    height: 125px;
+  }
+}

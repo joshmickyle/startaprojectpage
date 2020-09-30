@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+}
+hr {
+  margin: 3em 0 !important;
+}
+.slidertool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  border: 1px solid black;
+  outline: none;
+}
+
+.input-field input {
+  width: 0;
+}
+
+.row {
+  width: 95%;
+  margin-right: 0 !important;
+}
+
+.col .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#section1 {
+  /*background-image: url("https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+
+  background: url(https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import "./App.css";
+import Contactus from "./contact/Contactus";
+import Probono from "./probono/Probono";
+import Startproject from "./startproject/Startproject";
+import "materialize-css/dist/css/materialize.min.css";
+import Nav from "./nav/Nav";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 function App() {
+  useEffect(() => {
+    //initializing materialize css
+    M.AutoInit();
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+          <Route path="/" exact component={Probono} />
+          <Route path="/contact" component={Contactus} />
+          <Route path="/startproject" component={Startproject} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
