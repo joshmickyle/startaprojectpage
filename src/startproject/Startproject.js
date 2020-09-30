@@ -1,7 +1,5 @@
 import React from "react";
 import "./Startproject.css";
-import "fullpage.js";
-import Img2 from "./youth.jpg";
 
 // const Startproject = () => {
 //   return (
@@ -124,8 +122,8 @@ export default function Startproject() {
   const classes = useStyles();
 
   return (
-    <div id="fullpage">
-      <div class="section" id="section1">
+    <div>
+      <div id="section1">
         <div className="pageheading">
           <div class="container">
             <div class="centered">
@@ -134,7 +132,7 @@ export default function Startproject() {
           </div>
         </div>
       </div>
-      <div class="section">
+      <div>
         <div className="pageheading2">
           <h1>READY TO GET STARTED?</h1>
           <p1>
@@ -144,7 +142,7 @@ export default function Startproject() {
           </p1>
         </div>
       </div>
-      <div class="section">
+      <div>
         <div className="pageform">
           <h1>SELECT ALL THAT APPLY</h1>
           <div class="row">
@@ -207,7 +205,7 @@ export default function Startproject() {
           </div>
         </div>
       </div>
-      <div class="section">
+      <div>
         <div className="slidertool">
           <div className={classes.root}>
             <h1>BUDGET ESTIMATE</h1>

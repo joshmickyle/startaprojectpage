@@ -6,7 +6,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <div>
-      {/*<nav>
+      <nav>
         <div className="nav-wrapper">
           <div className="left">
             <Link to="!#" className="brand-logo left hide-on-med-and-down ">
@@ -34,7 +34,7 @@ function Nav() {
         </div>
       </nav>
       {/* side nav */}
-      {/*
+
       <ul id="slide-out" className="sidenav">
         <li>
           <Link to="/">Probono</Link>
@@ -45,7 +45,7 @@ function Nav() {
         <li>
           <Link to="/contact">Contact Us</Link>
         </li>
-      </ul>*/}
+      </ul>
     </div>
   );
 }
