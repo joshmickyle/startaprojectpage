@@ -145,6 +145,50 @@ export default function Startproject() {
       <div>
         <div className="pageform">
           <h1>SELECT ALL THAT APPLY</h1>
+          <div>
+            <ul class="tg-list">
+              <li class="tg-list-item">
+                <h4>Web Development</h4>
+                <input class="tgl tgl-flip" id="cb2" type="checkbox" />
+                <label
+                  class="tgl-btn"
+                  data-tg-off="No"
+                  data-tg-on="Yes!"
+                  for="cb2"
+                ></label>
+              </li>
+              <li class="tg-list-item">
+                <h4>Minimal Viable Product</h4>
+                <input class="tgl tgl-flip" id="cb3" type="checkbox" />
+                <label
+                  class="tgl-btn"
+                  data-tg-off="No"
+                  data-tg-on="Yes!"
+                  for="cb3"
+                ></label>
+              </li>
+              <li class="tg-list-item">
+                <h4>Robotic Process Automation</h4>
+                <input class="tgl tgl-flip" id="cb4" type="checkbox" />
+                <label
+                  class="tgl-btn"
+                  data-tg-off="No"
+                  data-tg-on="Yes!"
+                  for="cb4"
+                ></label>
+              </li>
+              <li class="tg-list-item">
+                <h4>Cloud Solutions</h4>
+                <input class="tgl tgl-flip" id="cb5" type="checkbox" />
+                <label
+                  class="tgl-btn"
+                  data-tg-off="No"
+                  data-tg-on="Yes!"
+                  for="cb5"
+                ></label>
+              </li>
+            </ul>
+          </div>
           <div class="row">
             <form class="col s12">
               <div class="row">
